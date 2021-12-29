@@ -1,6 +1,14 @@
 header {
-    height: 100vh;
+    height: 25vh;
     background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: flex-end;
+   
+    text-align: right;
+    position: fixed;
+    top: 0;
+
 }
 
 #history {
@@ -17,4 +25,13 @@ header {
 #products {
     height: 500px;
     background-color:chartreuse;
+}
+#nav-bar{
+    flex-direction: flex-end;
+    justify-content: right;
+    text-align: right;
+    position: fixed;
+    top: 0;
+
+    
 }
