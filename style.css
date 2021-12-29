@@ -1,14 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 header {
-    height: 25vh;
+    padding: 0 20px;
+    display: flex;
+    height: 60px;
+    width: 100%;
     background-color: aqua;
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    flex-direction: flex-end;
-   
-    text-align: right;
     position: fixed;
     top: 0;
 
+}
+
+#header-img {
+    width: auto;
 }
 
 #history {
@@ -26,12 +37,16 @@ header {
     height: 500px;
     background-color:chartreuse;
 }
-#nav-bar{
+/* #nav-bar{
     flex-direction: flex-end;
     justify-content: right;
     text-align: right;
     position: fixed;
-    top: 0;
+    top: 0;    
+} */
 
-    
+@media (max-width: 768px) {
+    #history {
+        background-color: crimson;
+    }
 }
